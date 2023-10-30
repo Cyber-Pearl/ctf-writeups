@@ -5,7 +5,7 @@ I can't decide which color is the least significant... red xor green?
 This problem is a steganography problem. The image has encoded data given below:
 ![alt](./encoded.png)
 
-After analyzing the problem dreb said the we need to extract data each color RED and GREEN then XOR them. Using https://stegonline.georgeom.net/extract for extracting LSB data.
+After analyzing the problem @dreb said we need to extract data each color RED and GREEN then XOR them afterwards. So using https://stegonline.georgeom.net/extract for extracting LSB data.
 
 Get the hex dump of RED
 ![Alt text](image.png)
