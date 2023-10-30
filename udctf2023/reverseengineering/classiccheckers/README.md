@@ -51,7 +51,7 @@ https://gist.github.com/AndyNovo/f1d9d18cbdbc4901066234077dac9b90
 (print (checkFlag "FLAGHERE"))
 ```
 
-The code was written in Lisp. Lisp, a family of programming languages known for their unique syntax and strong support for symbolic reasoning and recursion. In this specific code snippet, a function named checkFlag is defined, which takes a single argument (input) and performs a series of conditional checks on it. If all the conditions are met, the function returns t (true), indicating that the input string satisfies the specified criteria. 
+The code was written in Lisp, a family of programming languages known for their unique syntax and strong support for symbolic reasoning and recursion. In this specific code snippet, a function named checkFlag is defined, which takes a single argument (input) and performs a series of conditional checks on it. If all the conditions are met, the function returns t (true), indicating that the input string satisfies the specified criteria. 
 
 Breaking down the conditions step by step:
 
