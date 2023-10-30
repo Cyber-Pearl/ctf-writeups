@@ -55,27 +55,27 @@ The code was written in Lisp, a family of programming languages known for their 
 
 Breaking down the conditions step by step:
 
-1 The input must be exactly 34 characters long.
-2 The first 6 characters must be "UDCTF{".
-3 The 7th character must have a character code of 104 ('h').
-4 The 10th character's code plus 15 must equal the difference  between the 8th and 7th character codes.
-5 The product of the 7th and 9th character codes must be 2652.
-6 The difference between the 7th and 9th character codes must be 1.
-7 The 10th character must be equal to the 14th character.
-8 The 14th character must be equal to the 21st character.
-9 The 10th character must be equal to the 25th character.
-10 The 21st character must be equal to the 27th character.
-11 The ceiling of the 10th character's code divided by 2 must equal the 12th character's code.
-12 The difference between the squares of the 11th and 13th character codes must be 952.
-13 The substring from the 14th to the 21st character must be equal to the reverse of "sy4wla_".
-14 The substring from the 22nd to the 24th character must be equal to the substring from the 6th to the 8th character.
-15 The 24th character's code modulo 97 must be 3.
-16 The substring from the 14th to the 16th character must be equal to the reverse of the substring from the 26th to the 28th character.
-17 The complex number formed by the 28th and 29th character codes must be equal to the complex conjugate of the complex number (76, -49).
-18 The least common multiple of the 30th and 31st character codes must be 6640.
-19 The 30th character code must be greater than the 31st character code.
-20 The 32nd character code must be equal to the sum of the 31st and 30th character codes minus the 24th character code.
-21 The 33rd character code must be 125 ('}'). If all these conditions are met, the function returns true.
+1. The input must be exactly 34 characters long.
+2. The first 6 characters must be "UDCTF{".
+3. The 7th character must have a character code of 104 ('h').
+4. The 10th character's code plus 15 must equal the difference  between the 8th and 7th character codes.
+5. The product of the 7th and 9th character codes must be 2652.
+6. The difference between the 7th and 9th character codes must be 1.
+7. The 10th character must be equal to the 14th character.
+8. The 14th character must be equal to the 21st character.
+9. The 10th character must be equal to the 25th character.
+10. The 21st character must be equal to the 27th character.
+11. The ceiling of the 10th character's code divided by 2 must equal the 12th character's code.
+12. The difference between the squares of the 11th and 13th character codes must be 952.
+13. The substring from the 14th to the 21st character must be equal to the reverse of "sy4wla_".
+14. The substring from the 22nd to the 24th character must be equal to the substring from the 6th to the 8th character.
+15. The 24th character's code modulo 97 must be 3.
+16. The substring from the 14th to the 16th character must be equal to the reverse of the substring from the 26th to the 28th character.
+17. The complex number formed by the 28th and 29th character codes must be equal to the complex conjugate of the complex number (76, -49).
+18. The least common multiple of the 30th and 31st character codes must be 6640.
+19. The 30th character code must be greater than the 31st character code.
+20. The 32nd character code must be equal to the sum of the 31st and 30th character codes minus the 24th character code.
+21. The 33rd character code must be 125 ('}'). If all these conditions are met, the function returns true.
 
 We manage to convert this to python so that we can easily run and trace the code. Although we can run the LISP code with `clisp` interpreter but we need more readability.
 
