@@ -1,4 +1,4 @@
-# Fork Knife
+# Fork Knife (500 points) - Github
 
 You must solve the first challenge to get the answer of this 2nd challeng.
 
