@@ -20,3 +20,5 @@ From port of IRC server 16667, I found a footprint with the flag which is a crit
 | Not valid before: 2023-10-22T03:44:22
 |_Not valid after:  2033-10-19T03:44:22
 ```
+
+**FLAG:** `EKO{th3_f1rst_irc_fl4g}`
