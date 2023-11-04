@@ -1,6 +1,6 @@
 # Secure (500 points)
 
-We need to find critical secrets somewhere.
+Now go in secure mode and find for whom we are working.
 
 This problem is kinda very hard, doing some information gathering with trial and error. So scanning through the network go.ctf.site host is a must. 
 
