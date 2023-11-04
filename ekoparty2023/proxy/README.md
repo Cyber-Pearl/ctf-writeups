@@ -9,6 +9,6 @@ This problem is more like searching through the files of the gopherd. The only k
 ![Alt text](image.png)
 ![Alt text](image-1.png)
 
-
+In here I didn't know that the flag is for proxy. So I just ingored this because maybe this is just a fake flag but @lecth tried to submit it to proxy and got the score XD.
 
 **FLAG:** EKO{vuduownsyou}
