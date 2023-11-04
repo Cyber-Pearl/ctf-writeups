@@ -64,7 +64,7 @@ applyUpdate();
 ```
 So the web page will get `input_json` from the url and parse it as json. The json will be merged with the default json. The merged json will be used to compliment Messi and will be displayed in the `compliment` div.
 
-Building the first payload to test the prototype pollution:
+First payload from @ysl to test the prototype pollution:
 ```
 https://www.penetration-testing.com/?input_json={"__proto__":{"win":true}}
 ```
