@@ -4,7 +4,7 @@ You must solve the first challenge to get the answer of this 2nd challeng.
 
 ![Alt text](images/image.png)
 
-This problem needs to fork the repository and make a pull request of the changes to the original repository to uncover the secrets environment variables. There is a two possible gadgets here, the  bash scripts and `submission.c`. You can refer to this site how to exploit the yaml workflows: [Hack this reporistory - github](https://securitylab.github.com/research/ekoparty-ctf/)
+This problem needs to fork the repository and make a pull request of the changes to the original repository to uncover the secrets environment variables. There are a two possible gadgets here, the  bash scripts and `submission.c`. You can refer to this site how to exploit the yaml workflows: [Hack this reporistory - github](https://securitylab.github.com/research/ekoparty-ctf/)
 
 Looking at the workflow yaml file we can see the following:
 ```yaml
