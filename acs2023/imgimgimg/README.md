@@ -1,5 +1,6 @@
 # imgimgimg (1000 points)
 
+#### by @dreb
 ![Alt text](images/image.png)
 
 From the attachment given, we saw that inside the zip file is another zip file, an extra file, and a folder.
