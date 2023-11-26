@@ -64,6 +64,8 @@ Since the current fib algo uses recursion but limits the maximum recursionlimit 
 
 If we need fast to calculate large Fibonacci numbers, consider using a method that doesn't involve floating point numbers, using matrix multiplication and exponentiation to calculate the nth Fibonacci number, which is a more efficient method than the traditional recursive approach. This method is based on the fact that Fibonacci numbers can be represented as a matrix that is raised to the nth power.
 
+https://www.nayuki.io/page/fast-fibonacci-algorithms
+
 We define a helper function matmul(M1, M2) that multiplies two 2x2 matrices M1 and M2 together. The multiplication is done manually for each element of the resulting matrix.
 
 ```python
