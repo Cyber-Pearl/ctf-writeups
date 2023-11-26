@@ -113,6 +113,8 @@ So our final script:
 
 ```python
 # Fibonacci number in O(log(n))
+# n = 12648430
+# ETA: 116s
 def fib(n):
     if n == 0: 
         return 0
