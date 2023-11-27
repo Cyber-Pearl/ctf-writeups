@@ -1,10 +1,10 @@
 # Why lie: Blind SQL injection (500 points)
 
-![Alt text](image.png)
+![Alt text](_images/image.png)
 
 Given the script shows that it will output only Good guess! and Nope if our sql statement query fetches any data or not. So we can use blind sql injection to get the flag by boolean based.
 
-![Alt text](image-1.png)
+![Alt text](_images/image-1.png)
 
 Using cyberfox with hackbar extension we can easily make a payload. The payload above was showed as an example from [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/SQLite%20Injection.md). 
 
@@ -16,11 +16,11 @@ Blind SQL injection process:
 
 As we have already found the number of columns and the table name is `secret`.
 
-![Alt text](image-2.png)
+![Alt text](_images/image-2.png)
 
 Finding the column name needs a bit of guessing. I tried `message` but shows error so I tried `flag` and it worked.
 
-![Alt text](image-3.png)
+![Alt text](_images/image-3.png)
 
 Now we can use the column name to get the flag by bruteforcing it with output based "Good guess!" and "Nope".
 

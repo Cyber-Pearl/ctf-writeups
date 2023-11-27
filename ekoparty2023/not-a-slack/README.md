@@ -24,6 +24,6 @@ From our scanning results we can see that there is an IRC service running on por
 
 After connecting to the server, we can get an output of being connected to the IRC server.
 
-![Alt text](images/image.png)
+![Alt text](_images/image.png)
 
 **FLAG:** EKO{message_of_the_day}

@@ -22,7 +22,7 @@ hG'KIDA0IG'KTFepPEQ0[C'PZChfRp`!!:
 
 This crypto is [UUEncoding](https://en.wikipedia.org/wiki/Uuencoding), so we can use the UUdecoder to decode this file. But @dreb found out a missing header of this encoded text.
 
-![Alt text](image.png)
+![Alt text](_images/image.png)
 
 So adding the `(This file must be converted with BinHex 4.0)` as header will solve the problem on decoding.
 

@@ -23,6 +23,6 @@ From our scanning results we can see that there is an IRC service running on por
 After connecting to the server, we will run the command `/list` to list all the channels since the term `Private` looks like a channel for me.
 After listing we got its topic description in the IRC server. 
 
-![Alt text](images/image.png)
+![Alt text](_images/image.png)
 
 **FLAG:** EKO{n1ckserv_expert}
