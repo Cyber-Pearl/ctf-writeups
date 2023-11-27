@@ -1,7 +1,7 @@
 # Common RSA (1000 points)
 #### by @lecth
 
-![Alt text](_images/image.png)
+![Alt text](./_images/image.png)
 
 Attachments:
 - challenge.py

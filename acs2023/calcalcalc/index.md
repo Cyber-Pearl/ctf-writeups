@@ -1,8 +1,8 @@
 # calcalcalc (1000 pts)
 
-![Alt text](_images/image.png)
+![Alt text](./_images/image.png)
 
-![Alt text](_images/image-1.png)
+![Alt text](./_images/image-1.png)
 
 We can see this needs scripting based from our experience for solver for each operation.
 
@@ -49,6 +49,6 @@ print(r.recv())
 
 and then running our code
 
-![Alt text](_images/image-2.png)
+![Alt text](./_images/image-2.png)
 
 **Flag:** ACS{C41C_c@LC_CA1c_Calccccccc}

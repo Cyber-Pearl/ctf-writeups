@@ -24,10 +24,10 @@ From our scanning results we can see that there is an IRC service running on por
 
 After connecting to the server, we can run the command `/admin` to get a list of admins.
 
-![Alt text](../admin/_images/image.png)
+![Alt text](../admin/./_images/image.png)
 
 then run `/whois hds`, the only problem here is when hds goes offline you can't read hds's info anymore, so you have to be quick or wait `hds` will become online.
 
-![Alt text](_images/image.png)
+![Alt text](./_images/image.png)
 
 **FLAG:** EKO{here_is_your_flag_dear_friend}

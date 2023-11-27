@@ -2,7 +2,7 @@
 
 https://github.com/Lukerd-29-00/unbreakable
 
-![Alt text](_images/image.png)
+![Alt text](./_images/image.png)
 
 This crypto problem uses AES in CBC mode to encrypt the flag. The key is generated using the following code:
 

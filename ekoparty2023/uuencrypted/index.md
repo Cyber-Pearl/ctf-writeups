@@ -21,6 +21,6 @@ M2$D@6D523R!)32!44EE)3D<@02!.15<@14Y#4EE05$E/3@H*14M/>U5514Y#
 
 This crypto is [UUEncoding](https://en.wikipedia.org/wiki/Uuencoding), so we can use the UUdecoder to decode this file.
 
-![Alt text](_images/image.png)
+![Alt text](./_images/image.png)
 
 **FLAG:** EKO{UUENC0DED_ENCRYPTED?}

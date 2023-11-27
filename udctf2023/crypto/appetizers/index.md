@@ -1,5 +1,5 @@
 # Appetizers (500 points)
-![Alt text](_images/image.png)
+![Alt text](./_images/image.png)
 
 https://gist.github.com/AndyNovo/7527b97a69b7ee31c89ea6789f609abf
 

