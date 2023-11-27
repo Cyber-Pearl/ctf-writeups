@@ -1,6 +1,6 @@
 # escape room (1000 points)
 
-![Alt text](./_images/image.png)
+![Alt text](images/image.png)
 
 This challenge is a pyjail challenge wherein we need to jailbreak the python filters. 
 
@@ -67,7 +67,7 @@ print(tmp, file=SSmodule.stderr)
 EOF
 ```
 
-![Alt text](./_images/image-1.png)
+![Alt text](images/image-1.png)
 
 Our payload is working. How does it work? Well, back to the source code. There is no rule implemented in the compiler. So we can decorate our filtered text and will be read as a valid python code.
 
@@ -83,4 +83,4 @@ print(tmp, file=SSmodule.stderr)
 EOF
 ```
 
-![Alt text](./_images/image-2.png)
+![Alt text](images/image-2.png)

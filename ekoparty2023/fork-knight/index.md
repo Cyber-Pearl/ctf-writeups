@@ -2,7 +2,7 @@
 
 You must solve the first challenge to get the answer of this 2nd challeng.
 
-![Alt text](./_images/image.png)
+![Alt text](images/image.png)
 
 This problem needs to fork the repository and make a pull request of the changes to the original repository to uncover the secrets environment variables. There are a two possible gadgets here, the  bash scripts and `submission.c`. You can refer to this site how to exploit the yaml workflows: [Hack this reporistory - github](https://securitylab.github.com/research/ekoparty-ctf/)
 
@@ -183,10 +183,10 @@ echo "$EXPECTED_OUTPUT" | awk '{ for(i=length;i!=0;i--) printf "%s",substr($0,i,
 
 Now we can make a pull request to the original repository and wait for the workflow to run.
 
-![Alt text](./_images/image-1.png)
+![Alt text](images/image-1.png)
 
 Looking at the actions tab to see the workflow running.
-![Alt text](./_images/image-2.png)
+![Alt text](images/image-2.png)
 
 and we got the flag.
 

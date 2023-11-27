@@ -1,6 +1,6 @@
 # fibocrypt (1000 pts)
 
-![Alt text](./_images/image.png)
+![Alt text](images/image.png)
 
 ```python
 from hashlib import sha512
@@ -176,4 +176,4 @@ pt = decrypt(data, key)
 print(pt)
 ```
 
-![Alt text](./_images/image-1.png)
+![Alt text](images/image-1.png)

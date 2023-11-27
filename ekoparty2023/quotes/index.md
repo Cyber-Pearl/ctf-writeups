@@ -40,6 +40,6 @@ BotServ Random quotes matching your query: 313337
 So we can get the flag with the id 313337 with the command 
 `/msg BotServ quotes #general get 313337`
 
-![Alt text](./_images/image.png)
+![Alt text](images/image.png)
 
 **FLAG:** EKO{b4s1c_search}

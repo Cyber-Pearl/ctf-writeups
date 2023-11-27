@@ -25,6 +25,6 @@ From our scanning results we can see that there is an FTP service running on por
 |_Can't get directory listing: TIMEOUT
 ```
 
-![Alt text](./_images/image.png)
+![Alt text](images/image.png)
 
 **FLAG:** EKO{wann_transfer_something?}
