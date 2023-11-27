@@ -13,7 +13,7 @@ random.shuffle(choices)
 winners = choices[:15]
 target = sum(winners)
 winners.sort()
-flag = "UDCTF{%s %}" % ("_".join(map(str,winners)))
+flag = "UDCTF{%s}" % ("_".join(map(str,winners)))
 #print(flag)
 choices.sort()
 print(choices)
@@ -43,7 +43,7 @@ def subset_sum(numbers, target, partial=[]):
 
     # If the sum of the current subset equals the target, print the flag
     if s == target:
-        flag = "UDCTF{%s %}" % ("_".join(map(str, partial)))
+        flag = "UDCTF{%s}" % ("_".join(map(str, partial)))
         print("Flag:", flag)
     
     # If the sum of the current subset exceeds the target, stop exploring this path
