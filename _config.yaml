@@ -1,8 +1,2 @@
-title: Cyber Pearl Writeups
-description: PH CTF Players
-show_downloads: false
-google_analytics:
+description: CTF PH Student Players
 theme: jekyll-theme-hacker
-strict_front_matter: false
-liquid:
-  error_mode: warn
