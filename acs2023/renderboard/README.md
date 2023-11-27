@@ -54,6 +54,6 @@ We found that the flag is stored from the `/` directory. With all that informati
 
 ![Alt text](images/image-11.png)
 
-(We later found out, that this wasn't how you normally get the flag, you can just enable debug=true in the payload)
+(We later found out, that this wasn't how you normally get the flag, you can just enable debug=true in my first payload)
 
 **Flag:** ACS{H3llo_3Js_m0dule_1n_NOdeJs55s}
